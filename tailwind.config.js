@@ -1,6 +1,6 @@
 module.exports = {
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
@@ -21,6 +21,9 @@ module.exports = {
       "7xl": "5rem",
     },
     colors: {
+      "mainbg": "#E7E7DB",
+      "dark-brown": "#695442",
+      "blur-light-orange": "#EOB394"
 
     },
     extend: {
